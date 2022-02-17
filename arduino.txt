@@ -14,6 +14,7 @@ void loop() {
 //    Serial.write('L');
 //  }
 ////////
+///
 //  delay(1000);
     for(char i= 'A'; i <= 'Z'; i++) {
       if(i%2==0){
