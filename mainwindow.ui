@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*background-color:rgb(136, 138, 133);
+font-size: 20pt;*/
+
+
+background-color:black;
+color:white;
+
+
+    /*font-weight: bold;*/
+  /*  color: rgb(243, 243, 243);*/
+/*margin:2;*/
+    /*background-color:rgb(136, 138, 133)*/</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(85, 87, 83);
+color:white;
+</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_9">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4" stretch="100,24">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="100,27">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3" stretch="15,260">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="39,68,70">
+            <item>
+             <widget class="QPushButton" name="pushButton">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(0, 0, 255);
+color:white;
+font-size:31px;
+</string>
+              </property>
+              <property name="text">
+               <string>PC-SIMV</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,10,2">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="sp1">
+                <property name="styleSheet">
+                 <string notr="true">font-size:17px;
+background-color:black;
+color:white;</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="clickable_lable" name="label_12">
+                  <property name="styleSheet">
+                   <string notr="true">font-size:17px;
+background-color:black;
+color:white;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="styleSheet">
+                   <string notr="true">background-color:black;
+color:white;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label">
+                  <property name="styleSheet">
+                   <string notr="true">font-size:17px;
+background-color:black;
+color:white;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="styleSheet">
+                   <string notr="true">background-color:black;
+color:white;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="margin">
+                   <number>0</number>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="sp2">
+                <property name="styleSheet">
+                 <string notr="true">font-size:17px;
+background-color:black;
+color:white;</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(78, 154, 6);</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="28,100">
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QPushButton" name="pushButton_3">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:black;
+color:white;
+text-align:left;
+font-size:26px;
+border-radius:0px;
+</string>
+                </property>
+                <property name="text">
+                 <string>  Monitoring</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_4">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:black;
+color:white;
+text-align:left;
+font-size:26px;
+border-radius:0px;
+</string>
+                </property>
+                <property name="text">
+                 <string>  Graphics</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_5">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:black;
+color:white;
+text-align:left;
+font-size:26px;
+border-radius:0px;
+</string>
+                </property>
+                <property name="text">
+                 <string>  System</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_6">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:black;
+color:white;
+text-align:left;
+font-size:26px;
+border-radius:0px;
+</string>
+                </property>
+                <property name="text">
+                 <string>  Controls</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_7">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:black;
+color:white;
+text-align:left;
+font-size:26px;
+border-radius:0px;
+</string>
+                </property>
+                <property name="text">
+                 <string>  Modes</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_8">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:black;
+color:white;
+text-align:left;
+font-size:26px;
+border-radius:0px;
+</string>
+                </property>
+                <property name="text">
+                 <string>  Alarms</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="limits_2">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color:black;
+color:white;
+text-align:left;
+font-size:26px;
+border-radius:0px;
+</string>
+                </property>
+                <property name="text">
+                 <string>  Limits</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QStackedWidget" name="stackedWidget">
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(0, 0, 0);</string>
+              </property>
+              <property name="currentIndex">
+               <number>4</number>
+              </property>
+              <widget class="QWidget" name="page">
+               <property name="styleSheet">
+                <string notr="true">background-color:rgb(136, 138, 133);</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_10">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QWidget" name="widget_5" native="true">
+                  <layout class="QVBoxLayout" name="verticalLayout_11">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_8">
+                     <property name="spacing">
+                      <number>5</number>
+                     </property>
+                     <item>
+                      <widget class="QWidget" name="widget_8" native="true">
+                       <property name="styleSheet">
+                        <string notr="true">background-color:black;</string>
+                       </property>
+                       <widget class="QLabel" name="label_3">
+                        <property name="geometry">
+                         <rect>
+                          <x>120</x>
+                          <y>30</y>
+                          <width>58</width>
+                          <height>16</height>
+                         </rect>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="ecg" name="widget_9" native="true">
+                       <property name="styleSheet">
+                        <string notr="true">background-color:black;</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_5">
+                       <item>
+                        <widget class="QWidget" name="widget_6" native="true">
+                         <property name="styleSheet">
+                          <string notr="true">background-color:black;</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_7" native="true">
+                         <property name="styleSheet">
+                          <string notr="true">background-color:black;</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="volumeChart" name="page_2">
+               <widget class="QLabel" name="label_4">
+                <property name="geometry">
+                 <rect>
+                  <x>70</x>
+                  <y>150</y>
+                  <width>58</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>page_2</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="page_3">
+               <widget class="QLabel" name="label_5">
+                <property name="geometry">
+                 <rect>
+                  <x>80</x>
+                  <y>160</y>
+                  <width>58</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>page_3</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="ecg" name="limits">
+               <property name="styleSheet">
+                <string notr="true">background-color:black;</string>
+               </property>
+               <widget class="QLabel" name="label_6">
+                <property name="geometry">
+                 <rect>
+                  <x>100</x>
+                  <y>120</y>
+                  <width>58</width>
+                  <height>16</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>limits</string>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QWidget" name="four_graphs">
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_5">
+                  <item>
+                   <widget class="QWidget" name="widget_4" native="true"/>
+                  </item>
+                  <item>
+                   <widget class="QWidget" name="widget_3" native="true"/>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <item>
+                     <widget class="QWidget" name="widget" native="true"/>
+                    </item>
+                    <item>
+                     <widget class="QWidget" name="widget_2" native="true"/>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="spacing">
+         <number>4</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>volumeChart</class>
+   <extends>QWidget</extends>
+   <header location="global">volumechart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ecg</class>
+   <extends>QWidget</extends>
+   <header location="global">ecg.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>clickable_lable</class>
+   <extends>QLabel</extends>
+   <header>clickable_lable.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

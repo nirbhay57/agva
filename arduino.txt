@@ -1,0 +1,27 @@
+void setup() {
+   // put your setup code here, to run once:
+   int a;
+   Serial.begin(115200);
+   Serial.print("arduino started\n");
+}
+
+void loop() {
+// put your main code here, to run repeatedly:
+//  if (digitalRead(buttonPin) == HIGH) {
+//    Serial.write('H');
+////  }
+//  else {
+//    Serial.write('L');
+//  }
+////////
+//  delay(1000);
+    for(char i= 'A'; i <= 'Z'; i++) {
+      if(i%2==0){
+                  Serial.println("even");
+      }else{
+                  Serial.println("odd");
+      }
+       //Serial.flush();
+       delay(120);
+    }
+}
