@@ -13,15 +13,12 @@ SetParameter1::SetParameter1(QWidget *parent) :
 	clickable_widget(parent),
 	ui(new Ui::SetParameter1)
 {
-
-
+	ui->setupUi(this);
 	if(!port_list.isEmpty()){
 		serial.setPort(port_list[0]);
 	}else{
 		qDebug()<<"Arduino not found"<<Qt::endl;
 	}
-	ui->setupUi(this);
-
 	//QPixmap upArrow("/home/nkp/Desktop/Project/venti_qt/ic_up_arrow.png");
 
 //	QPixmap upArrow(":/kajana/img/ic_up_arrow.png");
