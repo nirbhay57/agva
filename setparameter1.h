@@ -29,7 +29,7 @@ public:
 private:
 	Ui::SetParameter1 *ui;
 	QString unitValue,value,unit;
-	static QSerialPort serial;
+	QSerialPort serial;
 	static QList<QSerialPortInfo> port_list;
 	static int ii;
 	static bool object_created;

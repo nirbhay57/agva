@@ -13,9 +13,6 @@ void loop() {
 //  else {
 //    Serial.write('L');
 //  }
-////////
-///qlabel 
-///qlabel...................
 //  delay(1000);
     for(char i= 'A'; i <= 'Z'; i++) {
       if(i%2==0){
