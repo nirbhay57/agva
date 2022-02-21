@@ -8,17 +8,24 @@ int SetParameter1::ii = 0;
 bool SetParameter1::object_created = false;
 
 QList<QSerialPortInfo> SetParameter1::port_list = QSerialPortInfo::availablePorts();
+<<<<<<< HEAD
+QSerialPort SetParameter1::serial(port_list[0]);
+=======
 //QSerialPort SetParameter1::serial;
+>>>>>>> 999052443dacbb30f95c70e73dbc904de7cb1e04
 SetParameter1::SetParameter1(QWidget *parent) :
 	clickable_widget(parent),
 	ui(new Ui::SetParameter1)
 {
 	ui->setupUi(this);
+<<<<<<< HEAD
+=======
 	if(!port_list.isEmpty()){
 		serial.setPort(port_list[0]);
 	}else{
 		qDebug()<<"Arduino not found"<<Qt::endl;
 	}
+>>>>>>> 999052443dacbb30f95c70e73dbc904de7cb1e04
 	//QPixmap upArrow("/home/nkp/Desktop/Project/venti_qt/ic_up_arrow.png");
 
 //	QPixmap upArrow(":/kajana/img/ic_up_arrow.png");
@@ -164,3 +171,68 @@ SetParameter1::~SetParameter1()
 	delete ui;
 	serial.close();
 }
+<<<<<<< HEAD
+/*upper part auto generted*/
+
+
+//#include "itemreadingdata.h"
+//#include "ui_itemreadingdata.h"
+
+//ItemReadingData::ItemReadingData(QWidget *parent) :
+//    QWidget(parent),
+//    ui(new Ui::ItemReadingData)
+//{
+
+//    ui->setupUi(this);
+
+//    QPixmap upArrow(":/ic_up_arrow.png");
+//    auto imageupArrowResize = upArrow.scaled(16, 16, Qt::KeepAspectRatio);
+//    ui->labelUpperLimitImage->setPixmap(imageupArrowResize);
+
+
+
+//    QPixmap downArrow(":/ic_down_arrow.png");
+//    auto imagedownArrowResize = downArrow.scaled(16, 16, Qt::KeepAspectRatio);
+//    ui->labelDownLimitImage->setPixmap(imagedownArrowResize);
+
+
+
+//}
+
+
+//ItemReadingData::ItemReadingData( const QString& unit,const QString& value,const QString& unitValue,const QString& upperLimitValue,const QString& downLimitValue, QWidget *parent) : ItemReadingData(parent){
+//    setUnit(unit);
+//    setValue(value);
+//    setUnitValue(unitValue);
+//    setUpperLimitValue(upperLimitValue);
+//    setDownLimitVlue(downLimitValue);
+//}
+
+
+//void ItemReadingData::setUnit(const QString& unit){
+//    ui->labelUnit->setText(unit);
+//}
+
+//void ItemReadingData::setValue(const QString& value){
+//    ui->labelValue->setText(value);
+//}
+
+//void ItemReadingData::setUnitValue(const QString& unitValue){
+//    ui->labelUnitValue->setText(unitValue);
+//}
+
+//void ItemReadingData::setUpperLimitValue(const QString& upperLimitValue){
+//    ui->labelUpperLimitValue->setText(upperLimitValue);
+//}
+
+//void ItemReadingData::setDownLimitVlue(const QString& downLimitValue){
+//    ui->labelDownLimitValue->setText(downLimitValue);
+//}
+
+
+//ItemReadingData::~ItemReadingData()
+//{
+//    delete ui;
+//}
+=======
+>>>>>>> 999052443dacbb30f95c70e73dbc904de7cb1e04
