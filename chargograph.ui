@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CharGoGraph</class>
+ <widget class="QWidget" name="CharGoGraph">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:red;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="ecg" name="widget_3" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color:blue;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="volumeChart" name="widget_4" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-color:pink;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color:yellow;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>volumeChart</class>
+   <extends>QWidget</extends>
+   <header>volumechart.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ecg</class>
+   <extends>QWidget</extends>
+   <header location="global">ecg.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

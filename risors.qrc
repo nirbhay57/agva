@@ -1,0 +1,55 @@
+<RCC>
+    <qresource prefix="/kajana">
+        <file>img/ic_down_arrow.png</file>
+        <file>img/ic_up_arrow.png</file>
+        <file>img/ic_battery.png</file>
+        <file>img/ic_close.png</file>
+        <file>img/ic_dropdown.png</file>
+        <file>img/ic_female.png</file>
+        <file>img/ic_female_default.png</file>
+        <file>img/ic_female_select.png</file>
+        <file>img/ic_greenPlug.png</file>
+        <file>img/ic_lungs.png</file>
+        <file>img/ic_male.png</file>
+        <file>img/ic_male_default.png</file>
+        <file>img/layout_1.png</file>
+        <file>img/layout_2.png</file>
+        <file>img/layout_3.png</file>
+        <file>img/layout_4.png</file>
+        <file>img/layout_5.png</file>
+        <file>img/ic_standby.png</file>
+        <file>img/ic_standby.jpg</file>
+        <file>img/standby_green.png</file>
+        <file>img/ic_standby.jpeg</file>
+        <file>img/alarm on.png</file>
+        <file>img/alarm on.svg</file>
+        <file>img/alarm1.png</file>
+        <file>img/alarm2.svg</file>
+        <file>img/betri_soya.png</file>
+        <file>img/Group 431.svg</file>
+        <file>img/sbi1.jpg</file>
+        <file>img/sbi2_256.png</file>
+        <file>img/sbi1.png</file>
+        <file>img/sbi2.svg</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/">
+        <file>img/ic_battery.png</file>
+        <file>img/ic_close.png</file>
+        <file>img/ic_down_arrow.png</file>
+        <file>img/ic_dropdown.png</file>
+        <file>img/ic_female.png</file>
+        <file>img/ic_female_default.png</file>
+        <file>img/ic_female_select.png</file>
+        <file>img/ic_greenPlug.png</file>
+        <file>img/ic_lungs.png</file>
+        <file>img/ic_male.png</file>
+        <file>img/ic_male_default.png</file>
+        <file>img/ic_up_arrow.png</file>
+        <file>img/layout_1.png</file>
+        <file>img/layout_2.png</file>
+        <file>img/layout_3.png</file>
+        <file>img/layout_4.png</file>
+        <file>img/layout_5.png</file>
+    </qresource>
+</RCC>
