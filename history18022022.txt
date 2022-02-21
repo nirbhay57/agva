@@ -1,0 +1,130 @@
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git push  -u origin main
+sign_and_send_pubkey: signing failed for RSA "/home/nkp/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   8.pro.user
+	modified:   arduino.txt
+	modified:   setparameter1.cpp
+	modified:   setparameter1.h
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git add .
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   8.pro.user
+	modified:   arduino.txt
+	modified:   setparameter1.cpp
+	modified:   setparameter1.h
+
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git commit -m "1."
+[main efe0e4c] 1.
+ 4 files changed, 11 insertions(+), 68 deletions(-)
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git push  -u origin main
+sign_and_send_pubkey: signing failed for RSA "/home/nkp/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git init
+Reinitialized existing Git repository in /home/nkp/realtime_qlabel/8/.git/
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git push  -u origin main
+sign_and_send_pubkey: signing failed for RSA "/home/nkp/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git remote add origin git@github.com:nirbhay57/agva.git
+fatal: remote origin already exists.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git push  -u origin main
+sign_and_send_pubkey: signing failed for RSA "/home/nkp/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git push  -u origin main
+sign_and_send_pubkey: signing failed for RSA "/home/nkp/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git push  -u origin main
+sign_and_send_pubkey: signing failed for RSA "/home/nkp/.ssh/id_rsa" from agent: agent refused operation
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git remote -v
+origin	git@github.com:nirbhay57/agva.git (fetch)
+origin	git@github.com:nirbhay57/agva.git (push)
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git config --get remote.origin.url
+git@github.com:nirbhay57/agva.git
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ ssh-add
+Enter passphrase for /home/nkp/.ssh/id_rsa: 
+Bad passphrase, try again for /home/nkp/.ssh/id_rsa: 
+Bad passphrase, try again for /home/nkp/.ssh/id_rsa: 
+Bad passphrase, try again for /home/nkp/.ssh/id_rsa: 
+
+[1]+  Stopped                 ssh-add
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ ssh-keygen -t ed25519 -C "nirbhay57@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/nkp/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/nkp/.ssh/id_ed25519
+Your public key has been saved in /home/nkp/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:rSuwSjue5jqY2LkxFjy3Kx/ioHNE5CSmZ+nPVEwjKvU nirbhay57@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|                 |
+|..+ . o          |
+|o* + + .         |
+|o.B E o  .       |
+| *+ ..  S .      |
+|  o+o.   .       |
+|++*=oo  .        |
+|B=B*+o.  .       |
+|oOO*o  ..        |
++----[SHA256]-----+
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ ssh-add
+Enter passphrase for /home/nkp/.ssh/id_rsa: 
+Identity added: /home/nkp/.ssh/id_rsa (nkp@nkp-Inspiron-15-3567)
+Identity added: /home/nkp/.ssh/id_ed25519 (nirbhay57@gmail.com)
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ git push  -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 601 bytes | 66.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To github.com:nirbhay57/agva.git
+   18cad99..efe0e4c  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+nkp@nkp-Inspiron-15-3567:~/realtime_qlabel/8$ 
+
+

@@ -1,0 +1,259 @@
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ git clone https://github.com/nirbhay57/agva.git
+Cloning into 'agva'...
+remote: Enumerating objects: 129, done.
+remote: Counting objects: 100% (129/129), done.
+remote: Compressing objects: 100% (104/104), done.
+remote: Total 129 (delta 31), reused 121 (delta 23), pack-reused 0
+Receiving objects: 100% (129/129), 3.83 MiB | 5.37 MiB/s, done.
+Resolving deltas: 100% (31/31), done.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ git add .
+warning: adding embedded git repository: 8/agva1/agva
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> 8/agva1/agva
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached 8/agva1/agva
+hint: 
+hint: See "git help submodule" for more information.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ git commit -m "1."
+[master df5ecf2] 1.
+ 1 file changed, 1 insertion(+)
+ create mode 160000 8/agva1/agva
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ git push  -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ git remote add origin git@github.com:nirbhay57/agva.git
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ git push  -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'git@github.com:nirbhay57/agva.git'
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+	modified:   ../agva (new commits, modified content)
+	modified:   agva (modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../.silence_please.sh.swp
+	../../111.pdf
+	../../2 b sent/
+	../../222.pdf
+	../../269895332_1814004142322031_7924540853659242456_n.jpg
+	../../31ecgRunning_Really19/
+	../../31ecgRunning_finalECG.zip
+	../../31ecgRunning_finalECG/
+	../../32QSerialPort_7Reading_data.zip
+	../../32QSerialPort_7Reading_data/
+	../../32QSerialPort_7readingNwriting_clean.zip
+	../../32QSerialPort_7readingNwriting_clean1/
+	../../9/
+	../../Call_Letter.pdf
+	../../DallasTemperature-3.9.0.zip
+	../../DallasTemperature-3.9.0/
+	../../Dehradun_Snow_covered_peaks.jpg
+	../../Dehradun_Valley_from_Landour,_Uttarakhand_India_November_2010.jpg
+	../../ICONS PNG&SVG (1).zip
+	../../ICONS PNG&SVG (1)/
+	../../NCLT vacancy circular Dated 15.12.2021.pdf
+	../../Nirbhay_Kumar_Pandey_7992254508_short_agva_venti.pdf
+	../../OneWire-2.3.6.zip
+	../../OneWire-2.3.6/
+	../../Project/
+	../../Project_ventilator[vishal].zip
+	../../QSerialPort
+	../../Qt-Temperature-Sensor-master.zip
+	../../Qt-Temperature-Sensor-master/
+	../../SBI_ACCOUNT_STATEMENT.pdf
+	../../SO_qtVideoRecommendation.txt
+	../../Screenshot from 2021-12-02 14-31-50.png
+	../../Unsaved Document 1
+	../../Zerodha - Online stock trading at lowest prices from India's biggest stock broker.pdf
+	../../a.py
+	../../aadhar.jpg
+	../../aadhar_card.jpg
+	../../aalok password
+	../../acc_stmt.pdf
+	../../arduino-arduinoide.desktop
+	../../arduino_starts_ends.txt
+	../../build-32QSerialPort_7Reading_data-Desktop_Qt_5_15_2_GCC_64bit-Debug/
+	../../build-32QSerialPort_7readingNwriting_clean1-Desktop_Qt_5_15_2_GCC_64bit-Debug/
+	../../chegg.jpg
+	../../company_share
+	../../dd.zip
+	../../ecg1
+	../../flat_bhk
+	../../flat_bhk1
+	../../form_mapping
+	../../hdfc_closure.pdf
+	../../last6months.pdf
+	../../noisy_quora.txt
+	../../office_politics.txt
+	../../pan_collage.jpg
+	../../project_detail1
+	../../qt_charts
+	../../qt_example/
+	../../qtimer
+	../../resume_7992254508.pdf
+	../../right_widget_dynamically
+	../../rinku_acc_no
+	../../rohit_sharma/
+	../../santa.jpg
+	../../send-mail.txt
+	../../signtr.jpg
+	../../silence_please.sh
+	../../silence_please.txt
+	../../stock-photo-sohna-a-beautiful-place-in-haryana-known-for-his-mountain-complex-a-aerial-view-of-sohna-village-1517123081.jpg
+	../../stocks
+	../../ventilator-final4.zip
+	../../ventilator_info.ods
+	../../visit_weekend_delhi
+	../../zuru/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ ls
+agva
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1$ cd agva
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git add .
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git commit -m "1."
+[main dbbade9] 1.
+ 1 file changed, 1 insertion(+)
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/nirbhay57/agva.git
+   52ff301..dbbade9  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/nirbhay57/agva.git/'
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+To https://github.com/nirbhay57/agva.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/nirbhay57/agva.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 281 bytes | 140.00 KiB/s, done.
+From https://github.com/nirbhay57/agva
+   dbbade9..d3b7768  main       -> origin/main
+Updating dbbade9..d3b7768
+Fast-forward
+ arduino.txt | 1 +
+ 1 file changed, 1 insertion(+)
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git add .
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git commit -m "3. from desktop"
+[main 34d8296] 3. from desktop
+ 1 file changed, 1 insertion(+)
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/nirbhay57/agva.git
+   d3b7768..34d8296  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git add .
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git commit -m "4. dsktop"
+[main 02ae6ed] 4. dsktop
+ 1 file changed, 1 insertion(+)
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+To https://github.com/nirbhay57/agva.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/nirbhay57/agva.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0
+Unpacking objects: 100% (3/3), 282 bytes | 141.00 KiB/s, done.
+From https://github.com/nirbhay57/agva
+   34d8296..d7418d3  main       -> origin/main
+Auto-merging arduino.txt
+CONFLICT (content): Merge conflict in arduino.txt
+Automatic merge failed; fix conflicts and then commit the result.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git pull -f
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git pull 
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git pull 
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git add .
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git commit -m "deleted arduino"
+[main 161fe2d] deleted arduino
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nirbhay57/agva.git/'
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ 
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git pull
+Already up to date.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ git push  -u origin main
+Username for 'https://github.com': nirbhay57
+Password for 'https://nirbhay57@github.com': 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 503 bytes | 503.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/nirbhay57/agva.git
+   d7418d3..161fe2d  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva1/agva$ 

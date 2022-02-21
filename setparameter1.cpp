@@ -8,12 +8,24 @@ int SetParameter1::ii = 0;
 bool SetParameter1::object_created = false;
 
 QList<QSerialPortInfo> SetParameter1::port_list = QSerialPortInfo::availablePorts();
+<<<<<<< HEAD
 QSerialPort SetParameter1::serial(port_list[0]);
+=======
+//QSerialPort SetParameter1::serial;
+>>>>>>> 999052443dacbb30f95c70e73dbc904de7cb1e04
 SetParameter1::SetParameter1(QWidget *parent) :
 	clickable_widget(parent),
 	ui(new Ui::SetParameter1)
 {
 	ui->setupUi(this);
+<<<<<<< HEAD
+=======
+	if(!port_list.isEmpty()){
+		serial.setPort(port_list[0]);
+	}else{
+		qDebug()<<"Arduino not found"<<Qt::endl;
+	}
+>>>>>>> 999052443dacbb30f95c70e73dbc904de7cb1e04
 	//QPixmap upArrow("/home/nkp/Desktop/Project/venti_qt/ic_up_arrow.png");
 
 //	QPixmap upArrow(":/kajana/img/ic_up_arrow.png");
@@ -159,6 +171,7 @@ SetParameter1::~SetParameter1()
 	delete ui;
 	serial.close();
 }
+<<<<<<< HEAD
 /*upper part auto generted*/
 
 
@@ -221,3 +234,5 @@ SetParameter1::~SetParameter1()
 //{
 //    delete ui;
 //}
+=======
+>>>>>>> 999052443dacbb30f95c70e73dbc904de7cb1e04
