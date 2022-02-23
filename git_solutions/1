@@ -1,0 +1,576 @@
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git branch --set-upstream-to=origin/main main
+fatal: branch 'main' does not exist
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git remote -v
+origin	git@github.com:nirbhay57/agva.git (fetch)
+origin	git@github.com:nirbhay57/agva.git (push)
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git-pull(1)
+bash: syntax error near unexpected token `1'
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git-pull
+git-pull: command not found
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin master
+fatal: couldn't find remote ref master
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main
+From github.com:nirbhay57/agva
+ * branch            main       -> FETCH_HEAD
+error: The following untracked working tree files would be overwritten by merge:
+	8.pro
+	8.pro.user
+	SampleECG.txt
+	SampleECG_converted.txt
+	bell.cpp
+	bell.h
+	bell.ui
+	btn.cpp
+	btn.h
+	chargograph.cpp
+	chargograph.h
+	chargograph.ui
+	clickable_lable.cpp
+	clickable_lable.h
+	clickable_widget.cpp
+	clickable_widget.h
+	custom_pushbutton.cpp
+	custom_pushbutton.h
+	ecg.cpp
+	ecg.h
+	ecg.txt
+	ecg1.txt
+	ecg2.txt
+	ecg3.txt
+	ecg_sa.ui
+	four_graphs.cpp
+	four_graphs.h
+	fourgraphs.cpp
+	fourgraphs.h
+	fourgraphs.ui
+	hist1.cpp
+	hist17022022.txt
+	hist2.cpp
+	img/Group 431.svg
+	img/alarm on.png
+	img/alarm on.svg
+	img/alarm1.png
+	img/alarm2.svg
+	img/betri_soya.png
+	img/ic_battery.png
+	img/ic_close.png
+	img/ic_down_arrow.png
+	img/ic_dropdown.png
+	img/ic_female.png
+	img/ic_female_default.png
+	img/ic_female_select.png
+	img/ic_greenPlug.png
+	img/ic_lungs.png
+	img/ic_male.png
+	img/ic_male_default.png
+	img/ic_standby.jpeg
+	img/ic_standby.jpg
+	img/ic_standby.png
+	img/ic_up_arrow.png
+	img/layout_1.png
+	img/layout_2.png
+	img/layout_3.png
+	img/layout_4.png
+	img/layout_5.png
+	img/sbi1.jpg
+	img/sbi1.png
+	img/sbi2.svg
+	img/sbi2_256.png
+	img/standby_green.png
+	itemsetvalue.cpp
+	itemsetvalue.h
+	itemsetvalue1.cpp
+	itemsetvalue1.h
+	label_with_slot.cpp
+	label_with_slot.h
+	main.cpp
+	mainwindow.cpp
+	mainwindow.h
+	mainwindow.ui
+	meterdata.h
+	naya_form.cpp
+	naya_form.h
+	naya_form.ui
+	readingdata.h
+	risors.qrc
+	setparameter.cpp
+	setparameter.h
+	setparameter.ui
+	setparameter1.cpp
+	setparameter1.h
+	setparameter1.ui
+	stprmtr.cpp
+	stprmtr.h
+	stprmtr.ui
+	ui_ecg.h
+	unitchart.cpp
+	unitchart.h
+	unitchart.ui
+	volumechart.cpp
+	volumechart.h
+	volumechart.ui
+Please move or remove them before you merge.
+Aborting
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git add .
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git stash
+You do not have the initial commit yet
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git add *
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git stash
+You do not have the initial commit yet
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main
+From github.com:nirbhay57/agva
+ * branch            main       -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	8.pro.user
+	setparameter1.cpp
+	setparameter1.h
+Please commit your changes or stash them before you merge.
+Aborting
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git stash
+You do not have the initial commit yet
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main
+From github.com:nirbhay57/agva
+ * branch            main       -> FETCH_HEAD
+error: Your local changes to the following files would be overwritten by merge:
+	8.pro.user
+	setparameter1.cpp
+	setparameter1.h
+Please commit your changes or stash them before you merge.
+Aborting
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git add .
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git commit -m "error: Your local changes to the following files would be overwritten by merge:"
+[master (root-commit) f6188d5] error: Your local changes to the following files would be overwritten by merge:
+ 102 files changed, 877001 insertions(+)
+ create mode 100644 8.pro
+ create mode 100644 8.pro.user
+ create mode 100644 SampleECG.txt
+ create mode 100644 SampleECG_converted.txt
+ create mode 100644 arduino.txt
+ create mode 100644 bell.cpp
+ create mode 100644 bell.h
+ create mode 100644 bell.ui
+ create mode 100644 btn.cpp
+ create mode 100644 btn.h
+ create mode 100644 chargograph.cpp
+ create mode 100644 chargograph.h
+ create mode 100644 chargograph.ui
+ create mode 100644 clickable_lable.cpp
+ create mode 100644 clickable_lable.h
+ create mode 100644 clickable_widget.cpp
+ create mode 100644 clickable_widget.h
+ create mode 100644 custom_pushbutton.cpp
+ create mode 100644 custom_pushbutton.h
+ create mode 100644 ecg.cpp
+ create mode 100644 ecg.h
+ create mode 100644 ecg.txt
+ create mode 100644 ecg1.txt
+ create mode 100644 ecg2.txt
+ create mode 100644 ecg3.txt
+ create mode 100644 ecg_sa.ui
+ create mode 100644 four_graphs.cpp
+ create mode 100644 four_graphs.h
+ create mode 100644 fourgraphs.cpp
+ create mode 100644 fourgraphs.h
+ create mode 100644 fourgraphs.ui
+ create mode 100644 hist1.cpp
+ create mode 100644 hist17022022.txt
+ create mode 100644 hist2.cpp
+ create mode 100644 img/Group 431.svg
+ create mode 100644 img/alarm on.png
+ create mode 100644 img/alarm on.svg
+ create mode 100644 img/alarm1.png
+ create mode 100644 img/alarm2.svg
+ create mode 100644 img/betri_soya.png
+ create mode 100644 img/ic_battery.png
+ create mode 100644 img/ic_close.png
+ create mode 100644 img/ic_down_arrow.png
+ create mode 100644 img/ic_dropdown.png
+ create mode 100644 img/ic_female.png
+ create mode 100644 img/ic_female_default.png
+ create mode 100644 img/ic_female_select.png
+ create mode 100644 img/ic_greenPlug.png
+ create mode 100644 img/ic_lungs.png
+ create mode 100644 img/ic_male.png
+ create mode 100644 img/ic_male_default.png
+ create mode 100644 img/ic_standby.jpeg
+ create mode 100644 img/ic_standby.jpg
+ create mode 100644 img/ic_standby.png
+ create mode 100644 img/ic_up_arrow.png
+ create mode 100644 img/layout_1.png
+ create mode 100644 img/layout_2.png
+ create mode 100644 img/layout_3.png
+ create mode 100644 img/layout_4.png
+ create mode 100644 img/layout_5.png
+ create mode 100644 img/sbi1.jpg
+ create mode 100644 img/sbi1.png
+ create mode 100644 img/sbi2.svg
+ create mode 100644 img/sbi2_256.png
+ create mode 100644 img/standby_green.png
+ create mode 100644 itemsetvalue.cpp
+ create mode 100644 itemsetvalue.h
+ create mode 100644 itemsetvalue1.cpp
+ create mode 100644 itemsetvalue1.h
+ create mode 100644 label_with_slot.cpp
+ create mode 100644 label_with_slot.h
+ create mode 100644 main
+ create mode 100644 main.cpp
+ create mode 100644 mainwindow.cpp
+ create mode 100644 mainwindow.h
+ create mode 100644 mainwindow.ui
+ create mode 100644 meterdata.h
+ create mode 100644 naya_form.cpp
+ create mode 100644 naya_form.h
+ create mode 100644 naya_form.ui
+ create mode 100644 nkp_ssh_key_file
+ create mode 100644 nkp_ssh_key_file.pub
+ create mode 100644 nkp_ssh_key_file1
+ create mode 100644 nkp_ssh_key_file1.pub
+ create mode 100644 readingdata.h
+ create mode 100644 risors.qrc
+ create mode 100644 setparameter.cpp
+ create mode 100644 setparameter.h
+ create mode 100644 setparameter.ui
+ create mode 100644 setparameter1.cpp
+ create mode 100644 setparameter1.h
+ create mode 100644 setparameter1.ui
+ create mode 100644 stprmtr.cpp
+ create mode 100644 stprmtr.h
+ create mode 100644 stprmtr.ui
+ create mode 100644 ui_ecg.h
+ create mode 100644 unitchart.cpp
+ create mode 100644 unitchart.h
+ create mode 100644 unitchart.ui
+ create mode 100644 volumechart.cpp
+ create mode 100644 volumechart.h
+ create mode 100644 volumechart.ui
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ 8.pro.user
+8.pro.user: command not found
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ setparameter1.cpp
+setparameter1.cpp: command not found
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ setparameter1.h
+setparameter1.h: command not found
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ Please commit your changes or stash them before you merge.
+Please: command not found
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ Aborting
+Aborting: command not found
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git commit -m "error: Your local changes to the following files would be overwritten by merge:"
+On branch master
+nothing to commit, working tree clean
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main
+From github.com:nirbhay57/agva
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git add *
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git stash
+No local changes to save
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin master
+fatal: couldn't find remote ref master
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git branch --set-upstream-to=origin/master master
+error: the requested upstream branch 'origin/master' does not exist
+hint: 
+hint: If you are planning on basing your work on an upstream
+hint: branch that already exists at the remote, you may need to
+hint: run "git fetch" to retrieve it.
+hint: 
+hint: If you are planning to push out a new local branch that
+hint: will track its remote counterpart, you may want to use
+hint: "git push -u" to set the upstream config as you push.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git branch --set-upstream-to=origin/main master
+Branch 'master' set up to track remote branch 'main' from 'origin'.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull
+fatal: refusing to merge unrelated histories
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main
+From github.com:nirbhay57/agva
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main --allow-unrelated-histories
+From github.com:nirbhay57/agva
+ * branch            main       -> FETCH_HEAD
+CONFLICT (add/add): Merge conflict in setparameter1.h
+Auto-merging setparameter1.h
+CONFLICT (add/add): Merge conflict in setparameter1.cpp
+Auto-merging setparameter1.cpp
+CONFLICT (add/add): Merge conflict in 8.pro.user
+Auto-merging 8.pro.user
+Automatic merge failed; fix conflicts and then commit the result.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git mergetool
+
+This message is displayed because 'merge.tool' is not configured.
+See 'git mergetool --tool-help' or 'git help config' for more details.
+'git mergetool' will now attempt to use one of the following tools:
+meld opendiff kdiff3 tkdiff xxdiff tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare smerge emerge vimdiff
+Merging:
+8.pro.user
+setparameter1.cpp
+setparameter1.h
+
+Normal merge conflict for '8.pro.user':
+  {local}: created file
+  {remote}: created file
+Hit return to start merge resolution tool (bc): 
+The merge tool bc is not available as 'bcompare'
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git branch
+* master
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull origin main
+error: Pulling is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git add .
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git commit -m "pulling not possible unmerged files"
+[master 275bb67] pulling not possible unmerged files
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git commit -m "bybybyvyv"
+On branch master
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git push
+fatal: The upstream branch of your current branch does not match
+the name of your current branch.  To push to the upstream branch
+on the remote, use
+
+    git push origin HEAD:main
+
+To push to the branch of the same name on the remote, use
+
+    git push origin HEAD
+
+To choose either option permanently, see push.default in 'git help config'.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git push origin HEAD:main
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (17/17), 7.04 KiB | 1.17 MiB/s, done.
+Total 17 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), completed with 5 local objects.
+To github.com:nirbhay57/agva.git
+   9990524..275bb67  HEAD -> main
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ sudo -i
+[sudo] password for nkp:        
+root@nkp-Inspiron-15-3567:~# pw
+pw: command not found
+root@nkp-Inspiron-15-3567:~# pwd
+/root
+root@nkp-Inspiron-15-3567:~# cd /home/nkp/Desktop/8
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8# ls
+agva  agva1
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8# cd agva
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# ls
+8.pro                    bell.ui               clickable_widget.h     ecg.txt           hist2.cpp            main            nkp_ssh_key_file         setparameter1.h   unitchart.cpp
+8.pro_BACKUP_17227.user  btn.cpp               custom_pushbutton.cpp  four_graphs.cpp   history18022022.txt  main.cpp        nkp_ssh_key_file1        setparameter1.ui  unitchart.h
+8.pro_BASE_17227.user    btn.h                 custom_pushbutton.h    fourgraphs.cpp    img                  mainwindow.cpp  nkp_ssh_key_file1.pub    setparameter.cpp  unitchart.ui
+8.pro_LOCAL_17227.user   chargograph.cpp       ecg1.txt               four_graphs.h     itemsetvalue1.cpp    mainwindow.h    nkp_ssh_key_file.pub     setparameter.h    volumechart.cpp
+8.pro_REMOTE_17227.user  chargograph.h         ecg2.txt               fourgraphs.h      itemsetvalue1.h      mainwindow.ui   readingdata.h            setparameter.ui   volumechart.h
+8.pro.user               chargograph.ui        ecg3.txt               fourgraphs.ui     itemsetvalue.cpp     meterdata.h     risors.qrc               stprmtr.cpp       volumechart.ui
+arduino.txt              clickable_lable.cpp   ecg.cpp                git_solutions     itemsetvalue.h       naya_form.cpp   SampleECG_converted.txt  stprmtr.h
+bell.cpp                 clickable_lable.h     ecg.h                  hist17022022.txt  label_with_slot.cpp  naya_form.h     SampleECG.txt            stprmtr.ui
+bell.h                   clickable_widget.cpp  ecg_sa.ui              hist1.cpp         label_with_slot.h    naya_form.ui    setparameter1.cpp        ui_ecg.h
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git branch my-branch
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git branch
+* master
+  my-branch
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --list --show-origin
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        remote.origin.url=git@github.com:nirbhay57/agva.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.master.remote=origin
+file:.git/config        branch.master.merge=refs/heads/main
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al config --system --edit
+hint: Waiting for your editor to close the file... ls: cannot access '/etc/gitconfig': No such file or directory
+error: There was a problem with the editor 'ls -al'.
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al global --system --edit 
+git: 'global' is not a git command. See 'git --help'.
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al --global --system --edit 
+unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al --global --edit 
+unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al congig --global --edit 
+git: 'congig' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al config --global --edit 
+hint: Waiting for your editor to close the file... -rw-r--r-- 1 root root 159 Feb 21 14:35 /root/.gitconfig
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# slot.cpp  naya_form.h     SampleECG.txt            stprmtr.ui
+slot.cpp: command not found
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# bell.h                   clickable_widget.cpp  ecg_sa.ui              hist1.cpp         label_with_slot.h    naya_form.ui    setparameter1.cpp        ui_ecg.h
+bell.h: command not found
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git branch my-branch
+-bash: root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git branch
+-bash: root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# * master
+8.pro: command not found
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#   my-branch
+my-branch: command not found
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --list --show-origin
+-bash: root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        core.repositoryformatversion=0
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        core.filemode=true
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        core.bare=false
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        core.logallrefupdates=true
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        remote.origin.url=git@github.com:nirbhay57/agva.git
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        branch.master.remote=origin
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# file:.git/config        branch.master.merge=refs/heads/main
+-bash: file:.git/config: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al config --system --edit
+-bash: root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# hint: Waiting for your editor to close the file... ls: cannot access '/etc/gitconfig': No such file or directory
+hint:: command not found
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# error: There was a problem with the editor 'ls -al'.
+error:: command not found
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al global --system --edit 
+-bash: root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git: 'global' is not a git command. See 'git --help'.
+
+Command 'git:' not found, did you mean:
+
+  command 'git' from deb git (1:2.25.1-1ubuntu3.2)
+  command 'gitg' from deb gitg (3.32.1-1)
+  command 'gitk' from deb gitk (1:2.25.1-1ubuntu3.2)
+
+Try: apt install <deb name>
+
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sudo git -c core.editor=ls\ -al --global --system --edit 
+-bash: root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#: No such file or directory
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# unknown option: --global
+
+Command 'unknown' not found, but can be installed with:
+
+apt install fastlink
+
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git add .
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git commit -m "location of global git file"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@nkp-Inspiron-15-3567.(none)')
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --global user.email "you@example.com"
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --global user.email "nirbhay57@gmail.com"
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --global user.name nirbhay57
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --global user.email "irbhay57@gmail.com
+> l"
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --global user.email nirbhay57@gmail.com
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git config --global user.name nirbhay57
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git commit -m "location of global git file"
+[master bd87dd1] location of global git file
+ 1 file changed, 514 insertions(+)
+ create mode 100644 git_solutions/location_of_git_file
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva#  git push  -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'git@github.com:nirbhay57/agva.git'
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git pull
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com,13.234.176.102' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# sha-add
+sha-add: command not found
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# ssh-add
+Could not open a connection to your authentication agent.
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# git remote add origin git@github.com:nirbhay57/agva.git
+fatal: remote origin already exists.
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# ssh-add
+Could not open a connection to your authentication agent.
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# 
+root@nkp-Inspiron-15-3567:/home/nkp/Desktop/8/agva# exit
+logout
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git push origin HEAD:main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 4.32 KiB | 1.44 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:nirbhay57/agva.git
+   275bb67..bd87dd1  HEAD -> main
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$ git pull
+Already up to date.
+nkp@nkp-Inspiron-15-3567:~/Desktop/8/agva$
