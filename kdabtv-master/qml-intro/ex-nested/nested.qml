@@ -17,10 +17,37 @@ Item {
     height: 600
 
     Rectangle {
-        x: 100
-        y: 50
-        width: height * 2
-        height: 200 //width * 2
-        color: "lightblue"
+        width: 400
+        height: 400
+        color: "grey"
+        
+        Rectangle {
+                color: "lightblue"
+                x: 50
+                y: 50
+                width: 300
+                height: 150
+                Rectangle {
+                        x: 50; y: 50
+                        width: 50; height: 50
+                        color: "blue"
+                    }   
+            }
+        Rectangle {
+                color: "#aa00ff"       //"green"
+                x: 50
+                y: 150
+                width: 300
+                height: 150
+                clip: true
+                Rectangle {
+                        x: -100
+                        y: 50
+                        width: 150
+                        height: 50
+                        color: "white"
+                        clip: true
+                    }   
+            }
     }
 }
