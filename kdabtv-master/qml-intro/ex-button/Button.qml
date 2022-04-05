@@ -23,7 +23,8 @@ Item {
         id: background
         anchors.fill: parent
         border { left: root.__margin; right: root.__margin }
-        source: "images/button.png"
+        source: "images/child.jpeg"
+        //verticalTileMode: BorderImage.Repeat
         Text {
             id: label
             anchors.centerIn: parent
