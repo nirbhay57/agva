@@ -8,33 +8,19 @@
  *************************************************************************/
 
 import QtQuick 2.0
-Image {
-    id: image
-    width: 1000; height: 400
-    source: "https://www.thespruce.com/thmb/b45NsEHSrZ7kcZqQTR9USncofp8=/1138x1138/smart/filters:no_upscale()/bird-bill-parts-387362-hero-94dfe8a28cf74e83a36945b850bd6d4c.jpg"
-    fillMode: Image.PreserveAspectFit
-    Rectangle{
-        color: "red"
-        x: 0; y:950;
-        height: 50
-        width: 1000*image.progress
-        visible: image.progress != 1
-    }
-    onStatusChanged: console.log(sourceSize)
+
+Rectangle {
+    width: 400; height: 400
+    color: "#00a3fc"
 
     Image {
         x: 150; y: 150
         source: "../images/rocket.png"
     }
+    Image {
+        x: 390; y: 150
+        source: "../images/rocket.png"
+        height: 400
+        width: 200
+    }
 }
-
-
-//Rectangle {
-//    width: 400; height: 400
-//    color: "#00a3fc"
-
-//    Image {
-//        x: 150; y: 150
-//        source: "../images/rocket.png"
-//    }
-//}
