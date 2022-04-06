@@ -11,7 +11,7 @@
 import QtQuick 2.0
 
 Rectangle {
-    width: 400; height: 100; color: "lightblue"
+    width: 1000; height: 1000; color: "lightblue"
 
 //    LineEdit {
 //        id: lineEdit
@@ -42,24 +42,50 @@ Rectangle {
 //        }
 //    }
     Image{
+        x:10; y:10
         id: name
         source: "/home/agva/Pictures/child.jpeg"
-        width: 180; height: 180
+        width: 400; height: 400
 
-        fillMode: Image.PreserveAspectFit
+        //fillMode: Image.PreserveAspectFit
         BorderImage {
             id: name1
-            source: "/home/agva/Pictures/child.jpeg"
+            source: "/home/agva/Pictures/eagle.jpeg"
             width: 80; height: 80
             border.left: 5; border.top: 5
             border.right: 5; border.bottom: 5
         }
     }
+
+
+
+
     BorderImage {
-        id: name2
-        source: "/home/agva/Pictures/child.jpeg"
-        width: 180; height: 180
-        border.left: 50; border.top: 50
-        border.right: 50; border.bottom: 50
+        x:500;y:500
+        width: 400; height: 400
+        border { left: 30; top: 30; right: 30; bottom: 30 }
+        horizontalTileMode: BorderImage.Repeat
+        verticalTileMode: BorderImage.Repeat
+        source: "/home/agva/Pictures/camera.jpeg"
     }
+
+
+//    Image{
+//        x:410;y:410
+//        id: name2
+//        source: "/home/agva/Pictures/child.jpeg"
+//        width: 400; height: 400
+
+//        //fillMode: Image.PreserveAspectFit
+//        BorderImage {
+//            id: name3
+//            source: "/home/agva/Pictures/eagle.jpeg"
+//            //width: 80; height: 80
+//            border.left: 5; border.top: 5
+//            border.right: 5; border.bottom: 5
+//            horizontalTileMode: BorderImage.Repeat
+//            verticalTileMode: BorderImage.Repeat
+//        }
+//    }
+
 }
